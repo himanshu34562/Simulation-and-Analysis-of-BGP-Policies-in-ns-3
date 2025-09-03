@@ -10,10 +10,27 @@ This project simulates BGP (Border Gateway Protocol) policies and routing behavi
 - Analysis of asymmetric routing scenarios
 - Real-world BGP connectivity research included
 
-## Folder Structure
-- `figures/`: Screenshots related to BGP connectivity and simulation logs
-- `xml/`: ns-3 generated XML files for simulation and animation results
-- `src/`: Source code and simulation scripts (optional if applicable)
+## Project File Structure
+
+| Folder/File             | Description                                    |
+|------------------------|------------------------------------------------|
+| `Final report.pdf`      | Complete project report in PDF format           |
+| `IPV4 graph.png`        | Graph showing IPv4 traffic analysis             |
+| `IPV6 graph.png`        | Graph showing IPv6 traffic analysis             |
+| `README.md`             | Project overview and documentation               |
+| `bgp.cc`                | Simulation code for baseline BGP scenario        |
+| `bgp2.cc`               | Simulation code for enhanced direct link scenario |
+| `bgp3.cc`               | Simulation code for policy preference scenario    |
+| `bgp_1_animation.xml`   | Animation results file for baseline simulation    |
+| `bgp_1_results.xml`     | Simulation results XML for baseline scenario      |
+| `bgp_2_animation.xml`   | Animation results file for direct link scenario   |
+| `bgp_2_results.xml`     | Simulation results XML for direct link             |
+| `bgp_3_animation.xml`   | Animation results file for policy preference scenario |
+| `bgp_3_results.xml`     | Simulation results XML for policy preference         |
+| `log-partA.png`         | Log output screenshot for baseline simulation      |
+| `log-partB.png`         | Log output screenshot for direct link simulation   |
+| `log-partC.png`         | Log output screenshot for policy preference scenario |
+
 
 ## Getting Started
 To run the simulations, you need to have ns-3 installed. Follow the official ns-3 documentation to set up the environment: [nsnam.org/documentation](https://www.nsnam.org/documentation/)
